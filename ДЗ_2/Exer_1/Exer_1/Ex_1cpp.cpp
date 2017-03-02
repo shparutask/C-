@@ -4,14 +4,15 @@ using namespace std;
 void reverse(int *a, int n)
 {
 	int *p = a;
-	for (int* i = a + n - 1; i >= a + (n / 2); --i)
+	for (int* i = a + n - 1; i >= a + n / 2; --i)
 	{
 		int x = *i;
 		*i = *p;
 		*p = x;
-		p = p++;
+		p++;
 	}
-}
+}
+
 int main()
 {
 	int a[6] = { 3, 5, 6, 8, 6, 4 };

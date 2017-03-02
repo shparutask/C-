@@ -1,3 +1,2 @@
 ﻿  Ex_3.cpp
-  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_2\Ex_3\Debug\Ex_3.exe
-  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_2\Ex_3\Debug\Ex_3.pdb (Full PDB)
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\c-plus-plus\дз_2\ex_3\ex_3\ex_3.cpp : fatal error C1041: cannot open program database 'C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\C-plus-plus\ДЗ_2\Ex_3\Ex_3\Debug\vc140.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS

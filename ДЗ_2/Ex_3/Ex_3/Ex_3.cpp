@@ -1,20 +1,19 @@
 using namespace std;
 #include <iostream>
+#include <algorithm>
 
 void order(int &a, int &b, int &c) {
-	int* mas = new int[3];
-	mas[0] = a;
-	mas[1] = b;
-	mas[2] = c;
+	int mas[3]{ a, b, c };
 
-	for (int i = 0; i < 3; i++)
+	/*for (int i = 0; i < 3; i++)
 		for (int j = i; j > 0 && mas[j - 1] > mas[j]; j--)
 			swap(mas[j - 1], mas[j]);
 	a = mas[0];
 	b = mas[1];
 	c = mas[2];
 
-	delete[] mas;
+	delete[] mas;*/
+	sort(mas, mas + 3);
 }
 
 int main() {

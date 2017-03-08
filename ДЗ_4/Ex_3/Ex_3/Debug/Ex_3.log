@@ -1,0 +1,5 @@
+﻿  Time.cpp
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\дз_4\ex_3\ex_3\time.cpp(23): warning C4101: 's': unreferenced local variable
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\дз_4\ex_3\ex_3\time.cpp(30): warning C4101: 's': unreferenced local variable
+  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_4\Ex_3\Debug\Ex_3.exe
+  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_4\Ex_3\Debug\Ex_3.pdb (Full PDB)

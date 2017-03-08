@@ -3,35 +3,33 @@ using namespace std;
 
 class stack {
 public:
-	stack();
+	~stack();
 	void push(int new_element);
 	int pop();
 	int& max();
 
 private:
-	int* a;
-	int* p;
-	int size;
-	int count;
+	int* a = new int[100];;
+	int* p = a;
+	int size = 100;
+	int count = 0;
 };
 
-stack::stack() {
-	a = new int[100];
-	p = a;
-	size = 100;
-	count = 0;
+stack::~stack() {
+	delete[] a;
+	delete[] p;
 }
 
 void stack::push(int new_element) {
 	count++;
-	if (count >= 100) {
+	if (count >= size) {
 		size *= 2;
 		int* a1 = new int[size];
 		for (int i = 0; i < count; i++) {
 			a1[i] = a[i];
 		}
 		a = a1;
-		delete[] a1;
+		delete[] a1; //новый кусок отведен на время, указатель a переставлен на него, а1 теперь лишний (если я верно понимаю)
 	}
 	p++;
 	a[count] = new_element;

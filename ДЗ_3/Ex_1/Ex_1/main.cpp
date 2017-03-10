@@ -17,7 +17,6 @@ private:
 
 stack::~stack() {
 	delete[] a;
-	delete[] p;
 }
 
 void stack::push(int new_element) {
@@ -25,11 +24,12 @@ void stack::push(int new_element) {
 	if (count >= size) {
 		size *= 2;
 		int* a1 = new int[size];
+		p = a1;
 		for (int i = 0; i < count; i++) {
 			a1[i] = a[i];
+			p++;
 		}
-		a = a1;
-		delete[] a1; //новый кусок отведен на время, указатель a переставлен на него, а1 теперь лишний (если я верно понимаю)
+		delete[] a;
 	}
 	p++;
 	a[count] = new_element;

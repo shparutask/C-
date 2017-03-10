@@ -8,10 +8,10 @@ protected:
 
 public:
 	Rhombus(double x1, double y1, double length1, double length2) {
-		Rhombus::x1 = x1;
-		Rhombus::y1 = y1;
-		Rhombus::length1 = length1;
-		Rhombus::length2 = length2;
+		this->x1 = x1;
+		this->y1 = y1;
+		this->length1 = length1;
+		this->length2 = length2;
 	}
 
 	virtual void draw() {
@@ -24,10 +24,10 @@ public:
 }; 
 
 class color_Rhombus : public Rhombus {
-	char* color = new char(100);
+	char* color = new char[100];
 public:
 	color_Rhombus(double x1, double y1, double length1, double length2, char* color): Rhombus(x1, y1, length1, length2) {
-		color_Rhombus::color = color;
+		this->color = color;
 	}
 
 	/*~color_Rhombus() {

@@ -36,6 +36,7 @@ void stack::push(int new_element) {
 			p++;
 		}
 		delete[] a;
+		a = a1;
 	}	
 	a[count] = new_element;
 	count++;

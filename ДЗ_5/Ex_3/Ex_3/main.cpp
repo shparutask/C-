@@ -18,6 +18,7 @@ private:
 	mutable bool bCashed = false;
 	mutable bool IsAdded = false;
 	mutable bool isFirst = true;
+	mutable int countCashed = 0;
 };
 
 stack::~stack() {
@@ -37,7 +38,7 @@ void stack::push(int new_element) {
 		}
 		delete[] a;
 		a = a1;
-	}	
+	}
 	a[count] = new_element;
 	count++;
 	p++;
@@ -69,13 +70,14 @@ double stack::maxsin() const {
 		return sinCashed;
 	}
 	if (IsAdded) {
-		double s = sin(a[count] * a[0]);
-		for (int j = 1; j < count; j++)
-		{
-			if (s > sinCashed) sinCashed = s;
-			s = sin(a[count] * a[j]);
-		}
+		for (int* i = a + countCashed; i < a + count; i++)
+			for (int* j = a + 1; j < a + count; j++)
+			{
+				double s = sin(*i * *j);
+				if (s > sinCashed) sinCashed = s;
+			}
 		IsAdded = false;
+		countCashed = count;
 		return sinCashed;
 	}
 }

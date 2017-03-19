@@ -10,7 +10,7 @@ public:
 	double maxsin() const;
 
 private:
-	int* a = new int[100];;
+	int* a = new int[100];
 	int* p = a;
 	int size = 100;
 	int count = 0;
@@ -66,6 +66,7 @@ double stack::maxsin() const {
 				if (s > max_s) max_s = s;
 			}
 		sinCashed = max_s;
+		countCashed = count;
 		isFirst = false;
 		return sinCashed;
 	}

@@ -1,5 +1,5 @@
 ﻿  Ex_3.cpp
-c:\users\sonya\desktop\учебка\6-й семестр\симуни\дз_8\ex_3\ex_3\ex_3.cpp(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\c-plus-plus\дз_8\ex_3\ex_3\ex_3.cpp(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
-  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_8\Ex_3\Debug\Ex_3.exe
-  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_8\Ex_3\Debug\Ex_3.pdb (Full PDB)
+  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\C-plus-plus\ДЗ_8\Ex_3\Debug\Ex_3.exe
+  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\C-plus-plus\ДЗ_8\Ex_3\Debug\Ex_3.pdb (Full PDB)

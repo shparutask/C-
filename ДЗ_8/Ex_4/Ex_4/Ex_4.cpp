@@ -3,14 +3,14 @@
 using namespace std;
 
 template <typename T>
-void print_1(vector<T> x)
+void print_1(const vector<T>& x)
 {
 	for (auto& i : x)
 		cout << i << endl;
 }
 
 template <typename T>
-void print_2(vector<T> x) {
+void print_2(const vector<T>& x) {
 	for (auto it = x.begin(); it != x.end(); it++)
 		cout << *it << endl;
 }

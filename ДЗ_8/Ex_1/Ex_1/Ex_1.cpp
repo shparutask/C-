@@ -17,12 +17,14 @@ int main()
 		cin >> s;
 		cin >> mark;
 		cout << endl;
-		if (marks[s] < mark)
-			marks[s] = mark;
+		auto p = marks.find(s);
+		if (p == marks.end()|| p->second < mark)
+			p->second = mark;
 	}
 
 	for (auto& p : marks)
-		cout << p.first << " " << p.second << "\n";
+		cout << p.first << " " << p.second << "\n";
+
 	system("pause");
 	return 0;
 }

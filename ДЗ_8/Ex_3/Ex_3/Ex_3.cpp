@@ -22,8 +22,13 @@ public:
 template <typename T>
 void swp(T& x, T& y)
 {
-	swap(x.p, y.p);
-	swap(x.len, y.len);
+	T tmp = x.p;
+	x.p = y.p;
+	y.p = tmp;
+	
+	tmp = x.len;
+	x.len = y.len;
+	y.len = tmp;
 }
 
 int main()

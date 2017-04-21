@@ -17,19 +17,26 @@ public:
 	{
 		delete[] p;
 	}
+	
+	m_string& operator= (m_string s) {
+		this->len = s.len;
+		this->p = s.p;
+		return *this;
+	}
+
+	m_string(const m_string &str) {
+		*this = str;
+	}
 };
 
-template <typename T>
-void swp(T& x, T& y)
+
+void swp(m_string& x, m_string& y)
 {
-	T tmp = x.p;
-	x.p = y.p;
-	y.p = tmp;
-	
-	tmp = x.len;
-	x.len = y.len;
-	y.len = tmp;
+	m_string tmp = x;
+	x = y;
+	y = tmp;
 }
+
 
 int main()
 {

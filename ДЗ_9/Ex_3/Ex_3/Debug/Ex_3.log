@@ -1,5 +1,4 @@
 ﻿  Ex_3.cpp
-c:\users\sonya\desktop\учебка\6-й семестр\симуни\дз_9\ex_3\ex_3\ex_3.cpp(10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\sonya\desktop\учебка\6-й семестр\симуни\дз_9\ex_3\ex_3\ex_3.cpp(11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_9\Ex_3\Debug\Ex_3.exe
-  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_9\Ex_3\Debug\Ex_3.pdb (Full PDB)
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\c-plus-plus\дз_9\ex_3\ex_3\ex_3.cpp(10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\C-plus-plus\ДЗ_9\Ex_3\Debug\Ex_3.exe
+  Ex_3.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\C-plus-plus\ДЗ_9\Ex_3\Debug\Ex_3.pdb (Full PDB)

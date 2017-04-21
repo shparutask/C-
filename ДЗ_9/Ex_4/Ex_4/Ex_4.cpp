@@ -1,10 +1,11 @@
 #include <iostream>
+#include <deque>
 #include <vector>
 using namespace std;
 
 template <typename T>
 class queue {
-	vector<T> stk;
+	deque<T> stk;
 	int size;
 
 public:
@@ -15,7 +16,7 @@ public:
 	{
 		stk.push_back(x);
 		size++;
-	};
+	}
 
 	T pop()
 	{	
@@ -25,7 +26,7 @@ public:
 			stk[i] = stk[i + 1];
 		}
 		size--;
-		stk.erase(stk.begin() + size);
+		stk.pop_back();
 		return out;
 	}
 };

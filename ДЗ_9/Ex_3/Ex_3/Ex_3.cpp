@@ -8,8 +8,7 @@ void m_sort(vector<int>& v, int n)
 {
 	sort(v.begin(), v.end(), [n](int i, int j) {
 		int I = pow(10.0, (double)n);
-		int J = pow(10.0, (double)n);
-		return i % I < j % J; });
+		return i % I < j % I; });
 }
 
 int main()

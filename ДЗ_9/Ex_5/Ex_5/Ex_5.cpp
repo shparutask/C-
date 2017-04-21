@@ -3,9 +3,11 @@
 using namespace std;
 
 template <class T>
-typename T::value_type avg(T b, T e)
+//typename T::value_type avg(T b, T e)
+auto avg(T b, T e)
 {
-	typename T::value_type avg = 0;
+	//typename T::value_type avg = 0;
+	decltype(*b / 2) avg = 0;
 	int n = 0;
 	for (T p = b; p < e; p++)
 		if (*p > 0) {

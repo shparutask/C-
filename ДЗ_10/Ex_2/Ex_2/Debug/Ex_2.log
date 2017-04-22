@@ -1,0 +1,5 @@
+﻿  Ex_2.cpp
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\дз_10\ex_2\ex_2\ex_2.cpp(19): warning C4305: 'return': truncation from '__int64' to 'double'
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\дз_10\ex_2\ex_2\ex_2.cpp(35): warning C4309: 'return': truncation of constant value
+  Ex_2.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_10\Ex_2\Debug\Ex_2.exe
+  Ex_2.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_10\Ex_2\Debug\Ex_2.pdb (Full PDB)

@@ -1,5 +1,3 @@
-using namespace std;
-#include <iostream>
 #include <map>
 #include <string>
 
@@ -16,5 +14,5 @@ public:
 		date = d + " " + m;
 	}
 
-	void Is_Holiday();
+	string Is_Holiday();
 };

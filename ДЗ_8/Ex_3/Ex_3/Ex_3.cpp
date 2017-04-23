@@ -32,9 +32,8 @@ public:
 
 void swp(m_string& x, m_string& y)
 {
-	m_string tmp = x;
-	x = y;
-	y = tmp;
+	swap(x.p, y.p);
+	swap(x.len, y.len);
 }
 
 

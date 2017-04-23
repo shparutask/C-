@@ -12,7 +12,7 @@ int main() {
 	cout << "Please, enter a month {January, February, March, April, May, September, October, November, December}" << endl;
 	cin >> m;
 	Date date(d, m);
-	date.Is_Holiday();
+	cout << date.Is_Holiday();
 	system("pause");
 	return 0;
 }

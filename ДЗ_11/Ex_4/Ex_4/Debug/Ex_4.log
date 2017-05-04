@@ -1,0 +1,5 @@
+﻿  Ex_4.cpp
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\дз_11\ex_4\ex_4\ex_4.cpp(2): warning C4005: 'NUMLIM': macro redefinition
+  c:\users\sonya\desktop\учебка\6-й семестр\симуни\дз_11\ex_4\ex_4\ex_4.cpp(1): note: see previous definition of 'NUMLIM'
+  Ex_4.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_11\Ex_4\Debug\Ex_4.exe
+  Ex_4.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\ДЗ_11\Ex_4\Debug\Ex_4.pdb (Full PDB)

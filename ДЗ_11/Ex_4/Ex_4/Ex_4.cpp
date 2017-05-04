@@ -1,8 +1,5 @@
-#define NUMLIM(double) 0x7FFFFFFFFFFFFFFF;
-#define NUMLIM(int) 0x7FFFF;
-#define NUMLIM(short) 0x7FFF;
-#define NUMLIM(char) 0xFF;
+#define NUMLIM(name, val) val;
 #include <iostream>
 using namespace std;
 
-int main() {	cout << NUMLIM(unsigned);	cout << NUMLIM(int);	system("pause");	return 0;}
+int main() {	cout << NUMLIM(double, 0x7FFFFFFFFFFFFFFF);	cout << "\n";	cout << NUMLIM(int, 0x7FFFF);	system("pause");	return 0;}

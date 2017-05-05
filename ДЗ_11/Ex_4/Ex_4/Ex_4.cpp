@@ -1,5 +1,24 @@
-#define NUMLIM(name, val) val;
 #include <iostream>
-using namespace std;
+//using namespace std;
 
-int main() {	cout << NUMLIM(double, 0x7FFFFFFFFFFFFFFF);	cout << "\n";	cout << NUMLIM(int, 0x7FFFF);	system("pause");	return 0;}
+template<class T>
+class numeric_limits {};
+
+// Вариант с препроцессором
+#define NUMLIM(type, val) template <>\
+class numeric_limits<type> {\
+public:\
+	static char max() {\
+		return val;\
+	}\
+};
+
+NUMLIM(int, 0x7FFFFFFF);
+NUMLIM(unsigned, 0xFFFFFFFF);
+
+int main() {
+	int a = numeric_limits<int>::max();
+	unsigned b = numeric_limits<unsigned>::max();
+	system("pause");
+	return 0;
+}

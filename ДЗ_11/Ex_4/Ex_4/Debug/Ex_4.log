@@ -1,3 +1,7 @@
 ﻿  Ex_4.cpp
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\c-plus-plus\дз_11\ex_4\ex_4\ex_4.cpp(16): warning C4305: 'return': truncation from 'int' to 'char'
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\c-plus-plus\дз_11\ex_4\ex_4\ex_4.cpp(16): warning C4309: 'return': truncation of constant value
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\c-plus-plus\дз_11\ex_4\ex_4\ex_4.cpp(17): warning C4305: 'return': truncation from 'unsigned int' to 'char'
+c:\users\sonya\desktop\учебка\6-й семестр\симуни\c-plus-plus\дз_11\ex_4\ex_4\ex_4.cpp(17): warning C4309: 'return': truncation of constant value
   Ex_4.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\C-plus-plus\ДЗ_11\Ex_4\Debug\Ex_4.exe
   Ex_4.vcxproj -> C:\Users\Sonya\Desktop\Учебка\6-й семестр\Симуни\C-plus-plus\ДЗ_11\Ex_4\Debug\Ex_4.pdb (Full PDB)

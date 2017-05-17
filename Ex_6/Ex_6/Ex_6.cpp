@@ -5,15 +5,18 @@ using namespace std;
 template <class T>
 auto sum(T b, T e)
 {
-	decltype(*b) sum = 0;
+	decltype (*b * 2) sum = 0;
 
 	int count = 0;
 	for (T p = b; p < e; p++)
 		count++;
 	if (count % 2 == 0) e--;
 
-	for (T p = b; p < e; p += 2)
+	for (T p = b; p < e; p++)
+	{
 		sum += *p;
+		p++;
+	}
 	return sum;
 }
 
